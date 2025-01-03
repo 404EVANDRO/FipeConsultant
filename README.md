@@ -26,26 +26,17 @@ Este projeto é uma aplicação para buscar informações da Tabela Fipe de veí
    ```bash
    git clone https://github.com/404EVANDRO/fipe.git
    cd fipe-consulta
-Instale as dependências:
 
-bash
-Copiar código
-npm install
-# ou
-yarn install
-Inicie o projeto:
+2. **Instale as dependências
+   npm install
+      ou
+   yarn install
 
-bash
-Copiar código
-npm start
-# ou
-yarn start
-Acesse a aplicação: O projeto será executado em http://localhost:3000 (ou a porta configurada).
+3. **Inicie o projeto
+   npm start
+      ou
+   yarn start
 
-🔗 Endpoints Utilizados
-A aplicação consome a seguinte API pública:
-
-Base URL: [https://deividfortuna.github.io/fipe/](https://github.com/deividfortuna/fipe-promise)
 📖 Como Funciona
 O usuário informa os dados do veículo (marca, modelo, ano).
 A aplicação realiza uma requisição para a API pública.
@@ -57,10 +48,11 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 Este projeto está sob a licença MIT.
 
 💡 Autor
-Desenvolvido por Seu Nome.
+Desenvolvido por Evandro Ferreira Cieslinsky.
 
 📞 Contato
-Se tiver dúvidas ou sugestões, entre em contato:
+Se tiver dúvidas ou sugestões, entre em contato
 
-Email: seuemail@example.com
+Email: evandrocieslinsky@gmail.com
 GitHub: https://github.com/404EVANDRO
+
