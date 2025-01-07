@@ -25,7 +25,7 @@ Este projeto é uma aplicação para buscar informações da Tabela Fipe de veí
 
    ```bash
    git clone https://github.com/404EVANDRO/fipe.git
-   cd fipe-consulta
+   cd fipe
 
 2. **Instale as dependências
    npm install
