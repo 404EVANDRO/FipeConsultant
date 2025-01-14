@@ -1,8 +1,12 @@
 import axios from 'axios';
 import { Reference, VehicleBrand, VehicleModel, VehicleYear, VehicleDetail } from '../types';
+import dotenv from 'dotenv'; 
+
+dotenv.config();
 
 const API_BASE_URL = 'https://fipe.parallelum.com.br/api/v2';
-const SUBSCRIPTION_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI0MjJmYzdiYS0yZjBlLTQ2YWEtOWMyNy02NWEwZGMxODczMTIiLCJlbWFpbCI6ImV2YW5kcm9jaWVzbGluc2t5QGdtYWlsLmNvbSIsImlhdCI6MTczNTkxNDE1Nn0.R4__YOlHfZO2I5MauH2Waz5YojGw1z4odjC6TeqznzA'; 
+const SUBSCRIPTION_TOKEN = process.env.SUBSCRIPTION_TOKEN;
+
 
 const fipeApi = axios.create({
   baseURL: API_BASE_URL,
