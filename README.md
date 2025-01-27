@@ -44,15 +44,4 @@ Os dados retornados são exibidos de forma organizada.
 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-📄 Licença
-Este projeto está sob a licença MIT.
-
-💡 Autor
-Desenvolvido por Evandro Ferreira Cieslinsky.
-
-📞 Contato
-Se tiver dúvidas ou sugestões, entre em contato
-
-Email: evandrocieslinsky@gmail.com
-GitHub: https://github.com/404EVANDRO
 
